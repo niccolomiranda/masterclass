@@ -592,8 +592,8 @@ class App {
   async loadTexture() {
     const loader = new THREE.TextureLoader();
 
-    const imgs = ["frame-A.png", "frame-B.png"];
-    const imgsBg = ["background-A.jpg", "background-B.jpg"];
+    const imgs = ["https://uploads-ssl.webflow.com/640876ac465a023139e2cd1f/64107241acf34c7f45912388_frame-A.webp", "https://uploads-ssl.webflow.com/640876ac465a023139e2cd1f/64107241add4991560504b55_frame-B.webp"];
+    const imgsBg = ["https://uploads-ssl.webflow.com/640876ac465a023139e2cd1f/6410724157a29a2c70bdc4dc_background-A.webp", "https://uploads-ssl.webflow.com/640876ac465a023139e2cd1f/641072410a728d4b107e68e6_background-B.webp"];
 
     const promises = imgs.map((src) => {
       const url = new URL(src, import.meta.url);
