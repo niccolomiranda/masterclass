@@ -19,7 +19,7 @@ const PARAMS = {
   },
 };
 
-export default class App {
+class App {
   constructor() {
     this.indexTexture = 0;
 
@@ -656,4 +656,4 @@ export default class App {
   }
 }
 
-window.App = new App();
+const app = new App();
