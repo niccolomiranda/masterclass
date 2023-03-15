@@ -505,7 +505,6 @@ const PARAMS = {
 
     this.initMesh();
     this.initBg();
-    this.initGUI();
     this.updateBoundingRect();
   }
 
