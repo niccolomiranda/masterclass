@@ -91,6 +91,7 @@ const PARAMS = {
 
   onClickBtn(id) {
     if (id === this.indexTexture) return;
+        console.log('click', id);
 
     if (id > this.indexTexture) {
       this.onNext(true, id);
