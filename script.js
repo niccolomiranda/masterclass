@@ -666,9 +666,10 @@ const PARAMS = {
   onTick() {
     if (this.mesh) {
       this.material.uniforms.uTime.value += this.clock.getDelta() * PARAMS.uTimeSpeed;
+      
     }
 
-    this.renderer.render();
+    this.renderer.render(this.scene, this.camera);
 
     requestAnimationFrame(this.onTick.bind(this));
   }
