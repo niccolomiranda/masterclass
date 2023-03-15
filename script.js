@@ -108,7 +108,7 @@ class App {
     console.log(this.buttons);
 
     this.buttons.forEach((btn) => {
-      const id = parseInt(btn.getAttribute("data-id"));
+      const id = parseInt(btn.getAttribute("data-char-id"));
 
       btn.addEventListener("click", this.onClickBtn.bind(this, id));
     });
