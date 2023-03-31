@@ -1,9 +1,9 @@
 {
   "id": "/",
-  "scope": "/",
+  "scope": "https://unexpected-time.webflow.io/",
   "name": "Unexpected Time PWA",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "https://unexpected-time.webflow.io/",
   "short_name": "starter",
   "theme_color": "#E1477E",
   "description": "Unexpected Time PWA",
@@ -47,7 +47,7 @@
       "name": "Unexpected Time: The Lost Renaissance",
       "short_name": "Unexpected Time",
       "description": "Unexpected Time is a classic-furitistic gamification web experience showcasing the lost history & culture in a world dominated by the virtual reality.",
-      "url": "https://unexpected-time.webflow.io/",
+      "url": "https://unexpected-time.webflow.io",
       "icons": [{ "src": "https://uploads-ssl.webflow.com/64119696bd0a6bf2551d8b17/6426e223f97c79606ee0e9b3_image_3.png", "sizes": "192x192" }]
     }
   ]
